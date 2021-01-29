@@ -31,7 +31,7 @@ myFunction();
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
 function summation(number) {
-  /*Your Code Here*/
+  /* Recursive solution:  return 1 if number == 1 else number plus summation(number - 1) */
     return number > 1 ? summation(number - 1) + number : 1;
   }
  
@@ -58,8 +58,13 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
+  function animalNames(animals){
     /*Your Code Here*/
+    const displayNames = [];
+    animals.forEach(animal => {
+      displayNames.push(`name: ${animal.animal_name}, scientific: ${animal.scientific_name}`);
+    });
+    return displayNames;
   }
   
 
