@@ -16,7 +16,9 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-
+/**
+ * nestedFunction() is taking advantage of closure, i.e. the function looks outside of its scope for the variable internal, which was declared in the outer function.  
+ */
 
 
 
