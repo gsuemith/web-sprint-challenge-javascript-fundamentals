@@ -126,7 +126,7 @@ describe('Instance of CuboidMaker', () => {
       })
     })
     it('[1] initializes with length', () => {
-        console.log(cuboid);
+        //console.log(cuboid);
       expect(cuboid.length).toBe(4)
     })
     it('[2] initializes with the width', () => {
